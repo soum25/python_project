@@ -1,0 +1,4 @@
+
+
+with open("me.txt") as doc:
+doc
