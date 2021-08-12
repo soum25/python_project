@@ -42,8 +42,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today. Bring your Umbrella!!!.",
-        from_='+16469821409',
-        to='+33782207035'
+        from_="your twilio_number',
+        to='your_number'
     )
 
     print(message.status)
